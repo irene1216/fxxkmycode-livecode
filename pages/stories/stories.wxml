@@ -1,0 +1,8 @@
+<!--pages/stories/stories.wxml-->
+<view class="stories">
+  <view class="subheader">Fxxk my code moments...</view>
+  <view wx:for="{{stories}}" wx:for-item="story" data-index="{{index}}" data-id="{{story.id}}" data-ashkan="hahaha" bindtap="tapOnCard" class="card {{ activeStoryIndex == index ? 'active' : ''}}">
+    <view class="title">{{story.title}}</view>
+    <view class="author">🗡{{story.author}}</view>
+  </view>
+</view>

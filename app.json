@@ -1,0 +1,30 @@
+{
+  "pages":[
+    "pages/landing/landing",
+    "pages/stories/stories",
+    "pages/post/post"
+  ],
+  "tabBar": {
+    "color": "#CDCDCD",
+    "selectedColor": "#000000",
+    "list": [{
+      "pagePath": "pages/stories/stories",
+      "text": "Stories",
+      "iconPath": "images/stories_grey.png",
+      "selectedIconPath": "images/stories_black.png"
+    },{
+      "pagePath": "pages/post/post",
+      "text": "Post",
+      "iconPath": "images/home_grey.png",
+      "selectedIconPath": "images/home_black.png"
+    }]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Fxxk my code",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
