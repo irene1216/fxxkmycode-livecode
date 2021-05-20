@@ -6,6 +6,8 @@ App({
     logs.unshift(Date.now())
     wx.setStorageSync('logs', logs)
 
+    console.log("checking our phone storage", wx.getStorageSync('stories'))
+    this.globalData.stories = wx.getStorageSync('stories')
     // 登录
     wx.login({
       success: res => {
@@ -13,6 +15,11 @@ App({
       }
     })
   },
+  test(){
+    console.log("test")
+  },
+
+
   globalData: {
     userInfo: null,
     stories: [

@@ -1,0 +1,3 @@
+<!--pages/story/story.wxml-->
+<view>{{story.title}}</view>
+<view>{{story.author}}</view>

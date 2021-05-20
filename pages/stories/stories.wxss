@@ -39,3 +39,7 @@
   border-radius: 10rpx;
   margin: 30rpx 0;
 }
+
+.active {
+  background-color: rgba(235, 173, 173, 0.8);
+}

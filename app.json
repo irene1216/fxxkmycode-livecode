@@ -2,7 +2,8 @@
   "pages":[
     "pages/landing/landing",
     "pages/stories/stories",
-    "pages/post/post"
+    "pages/post/post",
+    "pages/story/story"
   ],
   "tabBar": {
     "color": "#CDCDCD",
